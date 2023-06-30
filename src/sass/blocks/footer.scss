@@ -1,0 +1,76 @@
+// Footer
+.footer {
+    border-top: 1px solid #cccccc;
+    &__inner {
+        height: calc(var(--h-head) * 2);
+        display: flex;
+        padding: 1rem 0;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.5rem;
+    }
+    &__socials {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-left: auto;
+        margin-right: 2rem;
+    }
+}
+
+.icon-instagram {
+    font-size: var(--fz-icon-lg);
+    border-radius: 3rem;
+    padding: 1rem;
+    border: 1px solid #cccccc;
+    color: orange;
+    transition: var(--sd-trans);
+    &:hover {
+        background: orange;
+        color: #ffffff;
+    }
+}
+
+.icon-whatsapp {
+    font-size: var(--fz-icon-sm);
+    border-radius: 3rem;
+    padding: 1rem;
+    border: 1px solid #cccccc;
+    color: orange;
+    transition: var(--sd-trans);
+    &:hover {
+        background: orange;
+        color: #ffffff;
+    }
+}
+
+.developer {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-size: 2rem;
+    font-family: "Commissioner", serif;
+    text-decoration: none;
+    line-height: 2.4rem;
+    color: #5b5b5b;
+    transition: all 0.3s ease-out;
+    &:hover {
+        color: #000000;
+    }
+    svg {
+        margin-left: 6px;
+        height: 5.6rem;
+        fill: orange;
+    }
+}
