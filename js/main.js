@@ -15,7 +15,7 @@
   \************************/
 /***/ (function() {
 
-eval("let burger = document.querySelector('.burger');\r\nlet bg = document.querySelector('.dark-bg');\r\nlet mobileMenu = document.querySelector('.mobile-menu');\r\n\r\nburger.addEventListener('click', function () {\r\n    burger.classList.toggle('open');\r\n    mobileMenu.classList.toggle('open');\r\n    bg.classList.toggle('open');\r\n})\r\n\n\n//# sourceURL=webpack://mygulp/./src/js/main.js?");
+eval("let burger = document.querySelector('.burger');\r\nlet bg = document.querySelector('.dark-bg');\r\nlet mobileMenu = document.querySelector('.mobile-menu');\r\n\r\nburger.addEventListener('click', function () {\r\n    burger.classList.toggle('open');\r\n    mobileMenu.classList.toggle('open');\r\n    bg.classList.toggle('open');\r\n})\r\n\r\ntimeCreate()\r\nfunction timeCreate() {\r\n    let time = document.querySelector('#date1');\r\n    const date = new Date();\r\n    const options = { timeZoneName: 'short' };\r\n    const formattedDate = date.toLocaleString('en-US', options);\r\n    time.innerHTML = formattedDate;\r\n}\r\n\n\n//# sourceURL=webpack://mygulp/./src/js/main.js?");
 
 /***/ })
 
